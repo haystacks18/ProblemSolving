@@ -11,7 +11,7 @@ class Solution {
             
             // 슬라이싱한 arr1 정렬
             for (int j=0; j<arr1.length; j++) {
-                for (int k=0; k<arr1.length-1; k++) {
+                for (int k=0; k<arr1.length-j-1; k++) {
                     if (arr1[k] > arr1[k+1]) {
                         int temp;
                         temp = arr1[k];
